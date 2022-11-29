@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add presenters">
-      <change beforePath="$PROJECT_DIR$/modules/common/base/presenters/ChangeFunc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/base/presenters/ChangeFunc.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/common/base/presenters/DefaultPresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/base/presenters/DefaultPresenter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/common/base/react/usePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/base/react/usePresenter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quizzes/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/quizzes/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/utils.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/PresenterFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/PresenterFactory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/WebApp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/components/context/PresentersContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/context/PresentersContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/screens/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/screens/HomePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/HomePresenter.ts" afterDir="false" />
-    </list>
+    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add e2e test and config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,23 +31,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/DDIGULIO/Desktop/upward/rather-labs-challenge&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/node_modules/prettier",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "ts.external.directory.path": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -79,7 +62,20 @@
       <recent name="$PROJECT_DIR$/pages/api" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="Home" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/e2e/HomePage.test.ts" />
+      <test-names>
+        <test-name value="Home" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -92,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Home" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -108,7 +105,7 @@
       <workItem from="1669302105985" duration="2284000" />
       <workItem from="1669739671432" duration="122000" />
       <workItem from="1669739873296" duration="102000" />
-      <workItem from="1669740030615" duration="5439000" />
+      <workItem from="1669740030615" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="Setup init app">
       <created>1669230948897</created>
@@ -145,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669745942120</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add e2e test and config">
+      <created>1669746508277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669746508277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add e2e test and config">
+      <created>1669746527959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669746527959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +179,8 @@
     <MESSAGE value="Add Question and Quiz models" />
     <MESSAGE value="Setup Next with Typescript and SOLID respect" />
     <MESSAGE value="Add presenters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add presenters" />
+    <MESSAGE value="Add e2e test and congig" />
+    <MESSAGE value="Add e2e test and config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add e2e test and config" />
   </component>
 </project>
