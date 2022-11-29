@@ -4,26 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Setup Next with Typescript and SOLID respect">
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/common/base/presenters/ChangeFunc.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/common/base/presenters/DefaultPresenter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/common/base/react/usePresenter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/PresenterFactory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/components/context/PresentersContext.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/layouts/MainLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/screens/HomePresenter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quizzes/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/pre-rendering.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/sample-survey.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/quizzes/sample-survey.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/ssg-ssr.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/WebApp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/screens/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/screens/HomePage.tsx" afterDir="false" />
+    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add presenters">
+      <change beforePath="$PROJECT_DIR$/modules/common/base/presenters/ChangeFunc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/base/presenters/ChangeFunc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/common/base/presenters/DefaultPresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/base/presenters/DefaultPresenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/common/base/react/usePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/base/react/usePresenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quizzes/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/quizzes/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/utils.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/PresenterFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/PresenterFactory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/WebApp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/components/context/PresentersContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/context/PresentersContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/layouts/MainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/screens/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/screens/HomePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/HomePresenter.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +72,11 @@
       <recent name="$PROJECT_DIR$/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/resourses" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/pages/api" />
-      <recent name="$PROJECT_DIR$/ui" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +108,7 @@
       <workItem from="1669302105985" duration="2284000" />
       <workItem from="1669739671432" duration="122000" />
       <workItem from="1669739873296" duration="102000" />
-      <workItem from="1669740030615" duration="5102000" />
+      <workItem from="1669740030615" duration="5439000" />
     </task>
     <task id="LOCAL-00001" summary="Setup init app">
       <created>1669230948897</created>
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669740465846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add presenters">
+      <created>1669745942119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669745942120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +167,7 @@
     <MESSAGE value="Setup Ant design" />
     <MESSAGE value="Add Question and Quiz models" />
     <MESSAGE value="Setup Next with Typescript and SOLID respect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Next with Typescript and SOLID respect" />
+    <MESSAGE value="Add presenters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add presenters" />
   </component>
 </project>
