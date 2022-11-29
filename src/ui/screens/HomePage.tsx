@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { usePresenterFactory } from '../components/context/PresentersContext'
-import { usePresenter } from '../../modules/common/base/react/usePresenter'
+import { usePresenter } from '@/modules/common/base/react/usePresenter'
 
 export const HomePage: React.FC = () => {
     const presenters = usePresenterFactory()
