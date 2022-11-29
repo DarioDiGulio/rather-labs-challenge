@@ -5,11 +5,9 @@ import Script from 'next/script'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import React, { ReactChildren, ReactNode } from 'react'
 
-const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
-
-export default function Layout({ children, home }) {
+export const Layout: React.FC<Props> = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -21,10 +19,10 @@ export default function Layout({ children, home }) {
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
+            'Rather Labs Challenge'
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content='Rather Labs Challenge' />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Script
@@ -43,9 +41,9 @@ export default function Layout({ children, home }) {
               className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt={name}
+              alt={'Dario Di Gulio'}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{'Dario Di Gulio'}</h1>
           </>
         ) : (
           <>
@@ -56,13 +54,11 @@ export default function Layout({ children, home }) {
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
-                alt={name}
+                alt={'Dario Di Gulio'}
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
+              <Link href="/" className={utilStyles.colorInherit}>Dario Di Gulio</Link>
             </h2>
           </>
         )}
@@ -75,4 +71,9 @@ export default function Layout({ children, home }) {
       )}
     </div>
   )
+}
+
+interface Props {
+    children: ReactNode
+    home?: boolean
 }
