@@ -1,22 +1,24 @@
-export class WebApp {
-    constructor(private config: WebAppConfig) {}
+import { PresenterFactory } from './PresenterFactory'
+import React from 'react'
+import { MainLayout } from './layouts/MainLayout'
 
-    private onUnhandledError = (e: Error) => {
-        switch (true) {
-            default: {
-                console.error(e)
-            }
-        }
+export class WebApp {
+    private readonly presenters: PresenterFactory
+
+    constructor(private config: WebAppConfig) {
+        this.presenters = new PresenterFactory(config)
     }
 
-    render = (PageComponent, pageProps = {}) => <PageComponent {...pageProps} />
+    render = (PageComponent, pageProps = {}) => (
+        <MainLayout presenters={ this.presenters }>
+            <PageComponent { ...pageProps } />
+        </MainLayout>
+    )
 }
 
 export interface WebAppConfig {
 }
 
 export const defaultWebAppConfig = (): WebAppConfig => {
-    return {
-
-    }
+    return {}
 }
