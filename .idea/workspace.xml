@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add router">
-      <change afterPath="$PROJECT_DIR$/src/modules/common/infrastructure/Core.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" afterDir="false" />
+    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Presenter test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/PresenterFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/PresenterFactory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/WebApp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/screens/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/home/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/screens/HomePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/home/HomePresenter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/e2e/HomePage.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/e2e/HomePage.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +78,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="on click on some quiz title should navigate to this page" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" />
+      <test-names>
+        <test-name value="on click on some quiz title should navigate to this page" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -100,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.on click on some quiz title should navigate to this page" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Jest.Home" />
       </list>
@@ -117,7 +121,7 @@
       <workItem from="1669302105985" duration="2284000" />
       <workItem from="1669739671432" duration="122000" />
       <workItem from="1669739873296" duration="102000" />
-      <workItem from="1669740030615" duration="8092000" />
+      <workItem from="1669740030615" duration="8477000" />
     </task>
     <task id="LOCAL-00001" summary="Setup init app">
       <created>1669230948897</created>
@@ -175,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669746671799</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Presenter test">
+      <created>1669816274524</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669816274524</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +212,7 @@
     <MESSAGE value="Add e2e test and congig" />
     <MESSAGE value="Add e2e test and config" />
     <MESSAGE value="Add router" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add router" />
+    <MESSAGE value="Presenter test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Presenter test" />
   </component>
 </project>
