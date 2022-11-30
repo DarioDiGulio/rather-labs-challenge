@@ -1,3 +1,3 @@
-import { HomePage } from '@/ui/screens/HomePage'
+import { HomePage } from '@/ui/screens/home/HomePage'
 
 export default () => <HomePage />

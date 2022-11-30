@@ -1,6 +1,10 @@
 import { PresenterFactory } from './PresenterFactory'
 import React from 'react'
 import { MainLayout } from './layouts/MainLayout'
+import { Router } from '@/ui/services/router/Router'
+import { NextJsRouter } from '@/ui/services/router/NextJsRouter'
+import { Core } from '@/modules/common/infrastructure/Core'
+import { CQBus } from 'asimov-cqbus/dist/CQBus'
 
 export class WebApp {
     private readonly presenters: PresenterFactory
@@ -17,8 +21,15 @@ export class WebApp {
 }
 
 export interface WebAppConfig {
+    core: Core,
+    router: Router,
 }
 
 export const defaultWebAppConfig = (): WebAppConfig => {
-    return {}
+    return {
+        core: new Core({
+            cqBus: new CQBus(),
+        }),
+        router: new NextJsRouter(),
+    }
 }

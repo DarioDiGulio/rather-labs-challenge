@@ -1,6 +1,6 @@
 import { defaultWebAppConfig, WebApp } from '@/ui/WebApp'
 import { render, screen } from '@testing-library/react'
-import { HomePage } from '@/ui/screens/HomePage'
+import { HomePage } from '@/ui/screens/home/HomePage'
 
 test('Home', async () => {
     const application = new WebApp(defaultWebAppConfig())

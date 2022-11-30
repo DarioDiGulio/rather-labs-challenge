@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add e2e test and config" />
+    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add router">
+      <change afterPath="$PROJECT_DIR$/src/modules/common/infrastructure/Core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/PresenterFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/PresenterFactory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/WebApp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/screens/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/screens/HomePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/home/HomePresenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/HomePage.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/e2e/HomePage.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +67,11 @@
       <recent name="$PROJECT_DIR$/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui/screens/home" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/resourses" />
       <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/pages/api" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -88,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Home" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="Jest.Home" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +117,7 @@
       <workItem from="1669302105985" duration="2284000" />
       <workItem from="1669739671432" duration="122000" />
       <workItem from="1669739873296" duration="102000" />
-      <workItem from="1669740030615" duration="5771000" />
+      <workItem from="1669740030615" duration="8092000" />
     </task>
     <task id="LOCAL-00001" summary="Setup init app">
       <created>1669230948897</created>
@@ -156,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669746527959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add router">
+      <created>1669746671799</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669746671799</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +200,7 @@
     <MESSAGE value="Add presenters" />
     <MESSAGE value="Add e2e test and congig" />
     <MESSAGE value="Add e2e test and config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add e2e test and config" />
+    <MESSAGE value="Add router" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add router" />
   </component>
 </project>
