@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add quizzes models">
-      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/app/GetQuizzesIds.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/LocalGetQuizzesIds.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/QuizzesModule.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/QuizzesStorage/LocalQuizzesStorage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/QuizzesStorage/QuizzesStorage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/common/infrastructure/Core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/infrastructure/Core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/quizzes/models/Quizs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/quizzes/models/Quizz.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/WebApp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/screens/home/HomePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/home/HomePresenter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" afterDir="false" />
-    </list>
+    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add CI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/src/modules/common",
+    "last_opened_file_path": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,8 +51,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/modules/common" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/modules/common" />
       <recent name="$PROJECT_DIR$/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -137,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Home" />
         <item itemvalue="Jest.on start should call core and get quizzes ids" />
         <item itemvalue="Jest.HomePresenter.test.ts" />
         <item itemvalue="Jest.on click on some quiz title should navigate to this page" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="Jest.Home" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +145,7 @@
       <workItem from="1669302105985" duration="2284000" />
       <workItem from="1669739671432" duration="122000" />
       <workItem from="1669739873296" duration="102000" />
-      <workItem from="1669740030615" duration="14089000" />
+      <workItem from="1669740030615" duration="14454000" />
     </task>
     <task id="LOCAL-00001" summary="Setup init app">
       <created>1669230948897</created>
@@ -229,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669816739577</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add quizzes models">
+      <created>1670243817913</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670243817913</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add CI">
+      <created>1670244120731</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670244120731</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,18 +259,7 @@
     <MESSAGE value="Add router" />
     <MESSAGE value="Presenter test" />
     <MESSAGE value="Add quizzes models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add quizzes models" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CI" />
   </component>
 </project>

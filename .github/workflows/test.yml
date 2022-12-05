@@ -20,7 +20,9 @@ jobs:
           cache-dependency-path: |
             yarn.lock
       - name: Web Build
-        run: yarn build
+        run: |
+          yarn install
+          yarn build
   web-test:
     runs-on: ubuntu-latest
     steps:
