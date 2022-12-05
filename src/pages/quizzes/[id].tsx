@@ -1,21 +1,17 @@
 import Head from 'next/head'
-import utilStyles from '../../styles/utils.module.css'
 import React from 'react'
 
-export const Post: React.FC<Props> = ({ postData }) => {
+export const Quizz: React.FC = () => {
     return (
         <>
             <Head>
-                <title>{ postData.title }</title>
+                <title>Quizz Title</title>
             </Head>
-            <article>
-                <h1 className={ utilStyles.headingXl }>{ postData.title }</h1>
-                <div dangerouslySetInnerHTML={ { __html: postData.contentHtml } }/>
-            </article>
+            <div>
+                <p>Quizz questions</p>
+            </div>
         </>
     )
 }
 
-interface Props {
-    postData: any
-}
+export default Quizz
