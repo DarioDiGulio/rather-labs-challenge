@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Presenter test">
+    <list default="true" id="43206d66-7c07-42bc-862e-0afebd93a183" name="Changes" comment="Add quizzes models">
+      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/app/GetQuizzesIds.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/LocalGetQuizzesIds.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/QuizzesModule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/QuizzesStorage/LocalQuizzesStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/quizzes/infrastructure/QuizzesStorage/QuizzesStorage.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/common/infrastructure/Core.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/common/infrastructure/Core.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/quizzes/models/Quizs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/quizzes/models/Quizz.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/WebApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/WebApp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/screens/home/HomePresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/screens/home/HomePresenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge",
+    "last_opened_file_path": "/Users/DDIGULIO/Desktop/upward/rather-labs-challenge/src/modules/common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,15 +63,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/common" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/quizzes/infrastructure" />
+      <recent name="$PROJECT_DIR$/src/modules/common/infrastructure/QuizzesStorage" />
       <recent name="$PROJECT_DIR$/src/ui/screens/home" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/resourses" />
-      <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -78,6 +89,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="HomePresenter.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="on click on some quiz title should navigate to this page" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -88,6 +109,19 @@
       <test-file value="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" />
       <test-names>
         <test-name value="on click on some quiz title should navigate to this page" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="on start should call core and get quizzes ids" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts" />
+      <test-names>
+        <test-name value="on start should call core and get quizzes ids" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -103,6 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.on start should call core and get quizzes ids" />
+        <item itemvalue="Jest.HomePresenter.test.ts" />
         <item itemvalue="Jest.on click on some quiz title should navigate to this page" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Jest.Home" />
@@ -121,7 +157,7 @@
       <workItem from="1669302105985" duration="2284000" />
       <workItem from="1669739671432" duration="122000" />
       <workItem from="1669739873296" duration="102000" />
-      <workItem from="1669740030615" duration="8477000" />
+      <workItem from="1669740030615" duration="14089000" />
     </task>
     <task id="LOCAL-00001" summary="Setup init app">
       <created>1669230948897</created>
@@ -186,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669816274524</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add quizzes models">
+      <created>1669816739577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669816739577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +256,19 @@
     <MESSAGE value="Add e2e test and config" />
     <MESSAGE value="Add router" />
     <MESSAGE value="Presenter test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Presenter test" />
+    <MESSAGE value="Add quizzes models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add quizzes models" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/ui/screens/HomePresenter.test.ts</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

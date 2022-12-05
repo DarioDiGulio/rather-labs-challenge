@@ -5,6 +5,7 @@ import { Router } from '@/ui/services/router/Router'
 import { NextJsRouter } from '@/ui/services/router/NextJsRouter'
 import { Core } from '@/modules/common/infrastructure/Core'
 import { CQBus } from 'asimov-cqbus/dist/CQBus'
+import { LocalQuizzesStorage } from '@/modules/quizzes/infrastructure/QuizzesStorage/LocalQuizzesStorage'
 
 export class WebApp {
     private readonly presenters: PresenterFactory
@@ -29,6 +30,7 @@ export const defaultWebAppConfig = (): WebAppConfig => {
     return {
         core: new Core({
             cqBus: new CQBus(),
+            quizzesStorage: new LocalQuizzesStorage()
         }),
         router: new NextJsRouter(),
     }
